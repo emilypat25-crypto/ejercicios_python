@@ -1,4 +1,6 @@
-
+""" 
+Serie Fibonacci. Solicitar cuántos términos desea visualizar el usuario y generar la secuencia comenzando por 0 y 1.
+"""
 def ex15 ():
 
     while True:

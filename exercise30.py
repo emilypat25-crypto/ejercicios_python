@@ -7,7 +7,7 @@
 
 def ex30():
     list = []
-    contrado = 0
+    contador = 0
 
     cantidad = int(input(
         "Ingrese el numero de posiciones que desea en la lista: \n"
@@ -15,8 +15,8 @@ def ex30():
 
     for i in range(cantidad):
         request = int(input("Ingrese un numero: \n"))
-        list.insert(contrador, request)
-        contrado = contrado - 1
+        list.insert(contador, request)
+        contador = contador - 1
         print(f"\n{list}\n")
 
 

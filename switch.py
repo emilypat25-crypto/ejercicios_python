@@ -1,3 +1,4 @@
+from ejercicio12 import ex12
 from exercise30 import ex30
 from exercise15 import ex15
 from exercise17 import ex17
@@ -6,7 +7,8 @@ from exercise26 import ex26
 
 def switch(a):
     if a == 1:
-        print("Ejercicio 12: \n")
+        print(f"Ejercicio 12: \n")
+        ex12()
     elif a == 2:
         print("Ejercicio 15: \n")
         ex15()
